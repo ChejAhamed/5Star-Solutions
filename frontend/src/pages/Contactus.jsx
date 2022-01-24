@@ -4,4 +4,4 @@ function Contactus() {
   return <div>Contact US</div>;
 }
 
-export default ContactContact USus;
+export default Contactus;
