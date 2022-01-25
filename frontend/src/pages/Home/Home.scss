@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+    
+    
+  }
+  .home{
+    width: 100%;
+    background-color: #fce0d9;
+    
+    
+    &__carousel-wrapper{
+      width: auto;
+      display: flex;
+      .carousel  {
+        display: flex;
+        flex-flow: column;
+        align-content: center;
+        align-items: center;
+        }
+      
+      div{
+        height: 40vh;
+        
+             
+      }
+    }
+    &__offers{
+      padding-top: 10rem;
+      background-color: #fce0d9;
+      align-content: center;
+      padding-left: 2rem;
+      padding-bottom: 2rem;
+      h3 {
+        justify-content: center;
+      }
+    }
+    &__jobexample{
+      display: flex;
+      flex-flow: row wrap;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 37.5rem;
+        height: 45rem;
+      }
+
+
+    }
+    &__jobexampleLeft{
+      display: flex;
+      flex-flow: row wrap;
+    }
+    &__jobexampleRight{
+      display: flex;
+      flex-flow: row wrap;
+    }
+    &__productsQuality{
+
+      padding: 5rem 5rem 5rem;
+      background-color: #fce0d9;
+      &__bottom{
+        margin-bottom: 5rem;
+        background-color: #fce0d9;padding: 5rem 5rem 5rem;
+      }
+      
+    }
+    &__beautiful{
+      display: flex;
+      flex-flow: row wrap;   
+      justify-content: center; 
+      img {
+        width: 37.5rem;
+        height: 45rem;
+      }
+    }
+    
+  }
